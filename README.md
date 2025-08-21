@@ -1,23 +1,28 @@
 # FUTURE_CS_03
 SECURE FILE SHARING SYSTEM
 
-A simple Flask-based secure file sharing app that encrypts uploaded files using AES (via cryptography.Fernet).
+A simple Flask-based secure file sharing app that encrypts uploaded files using AES (via `cryptography.Fernet`).
 
-Features
+---
 
-    AES encryption for uploaded files
-    Flask UI for file uploads
-    Sample file included for testing
+## Features
 
-How to Use
+- AES encryption for uploaded files
+- Flask UI for file uploads
+- Sample file included for testing
 
+---
+
+## How to Use
+
+```bash
 # 1. Clone the repo
-git clone https://github.com/KAYDEE2805/FUTURE_CS_03.git
+git clone https://github.com/CyberRN-Mulla/FUTURE_CS_03.git
 cd FUTURE_CS_03
 
 # 2. Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate
+python -m venv myenv
+myenv\Scripts\activate
 
 # 3. Install required packages
 pip install flask cryptography
