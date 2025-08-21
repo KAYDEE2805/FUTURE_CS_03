@@ -53,7 +53,7 @@ python task.py
 ---
 
 ## Developer
-KAZEEM DAVID OLUWAROTIMI
-Cybersecurity Intern
+KAZEEM DAVID OLUWAROTIMI<br>
+Cybersecurity Intern<br>
 Location: Remote
 
