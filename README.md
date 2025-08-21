@@ -19,6 +19,7 @@ A simple Flask-based secure file sharing app that encrypts uploaded files using 
 ```bash
 git clone https://github.com/CyberRN-Mulla/FUTURE_CS_03.git
 cd FUTURE_CS_03
+```bash
 
 # 2. Create and activate a virtual environment for windows
 ```bash
