@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAYDEE VENTURES</title>
+</head>
+<body>
+    <h1>Upload file</h1>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" name="Upload file">
+    </form>
+
+    <h1>Download file</h1>
+    <form method="GET" action="/download">
+        File Name: <input type="text" name="filename">
+        <input type="submit" name="Download">
+    </form>
+</body>
+</html>
